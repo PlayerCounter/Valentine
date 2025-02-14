@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+}
+.bottom-text {
+    position: fixed;
+    bottom: 20px;   /* Position à 20px du bas */
+    right: 20px;    /* Position à 20px du côté droit */
+    color: red;     /* Couleur du texte en rouge */
+    font-size: 12px;  /* Taille du texte plus petite */
+    font-family: 'Arial', sans-serif;
+    z-index: 1000;  /* Assure-toi que le texte soit au-dessus du reste */
+  }
